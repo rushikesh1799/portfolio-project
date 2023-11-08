@@ -17,9 +17,9 @@ const Projects = () => {
                         </button>
                     </li>
 
-                    <li className="filter-item">
+                    {/* <li className="filter-item">
                         <button data-filter-btn>Web Applications</button>
-                    </li>
+                    </li> */}
                 </ul>
 
                 <div className="filter-select-box">
@@ -59,7 +59,7 @@ const Projects = () => {
                         data-category="web development"
                     >
                         <a
-                            href="https://fashionfusions.vercel.app/"
+                            href="https://developers-library.netlify.app/"
                             target="_blank"
                         >
                             <figure className="project-img">
