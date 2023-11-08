@@ -30,17 +30,15 @@ const Resume = () => {
                         <div className="timeline-text">
                             <p>
                                 • Designed and developed a client-facing
-                                dashboard system enabling them to efficiently
-                                manage and maintain company documents through
-                                various phases, streamlining document workflow
-                                and enhancing organization, while efficiently
-                                managing user data via Oracle SQL Developer
-                                Database.{" "}
+                                dashboard system, resulting in 20% reduction in
+                                document management time and a 30% improvement
+                                in document workflow efficiency.{" "}
                             </p>
                             <p>
-                                • Improved team efficiency by automating tasks
-                                using Python and ETQScripts, resulting in time
-                                savings and eliminating manual workloads.
+                                • Streamlined team operations by implementing
+                                Python and ETQScripts automation, resulting in a
+                                40% reduction in manual workload and saving 15+
+                                hours per week.
                             </p>
                             <p>
                                 • Managed a team for end-to-end Testing and

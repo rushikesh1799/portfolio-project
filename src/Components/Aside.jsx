@@ -104,7 +104,7 @@ const Aside = () => {
                                 href="mailto:rushikeshbunge321@gmail.com"
                                 className="contact-link"
                             >
-                                rushikeshbunge321@gmail.com
+                                rushikeshbunge1@gmail.com
                             </a>
                         </div>
                     </li>

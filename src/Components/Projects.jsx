@@ -153,6 +153,40 @@ const Projects = () => {
                             {/* <p className="project-category">Web development</p> */}
                         </a>
                     </li>
+                    <li
+                        className="project-item  active"
+                        data-filter-item
+                        data-category="web development"
+                    >
+                        <a
+                            href="https://budgetbuddy1.netlify.app/"
+                            target="_blank"
+                        >
+                            <figure className="project-img">
+                                <div className="project-item-icon-box">
+                                    <VisibilityIcon />
+                                </div>
+
+                                <img
+                                    src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1699427364/budget-buddy_txofp1.png"
+                                    alt="social-media-app"
+                                    loading="lazy"
+                                />
+                            </figure>
+
+                            <h3 className="project-title">SnapVerse</h3>
+
+                            <p className="project-category">
+                                <strong>Budget Buddy</strong> is a financial
+                                Management App, designed to help users manage
+                                their income, expenses, and savings effectively.
+                                It is built using ReactJs, Redux-toolkit,
+                                ExpressJs, and MongoDB, and Material UI library.
+                            </p>
+
+                            {/* <p className="project-category">Web development</p> */}
+                        </a>
+                    </li>
                 </ul>
             </section>
         </article>
