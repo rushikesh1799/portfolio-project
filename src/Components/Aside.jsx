@@ -21,7 +21,7 @@ const Aside = () => {
             <div className="sidebar-info">
                 <figure className="avatar-box">
                     <img
-                        src="../src/assets/Me2.jpg"
+                        src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1699336435/Me2_m7gopp.jpg"
                         alt="Rushikesh Bunge"
                         width="80"
                     />
@@ -33,7 +33,9 @@ const Aside = () => {
                     </h1>
                     <div className="profile_tabs">
                         <p className="title">Frontend Engineer</p>
-                        <p className="title">See Resume</p>
+                        <a href="/" target="_blank">
+                            <p className="title">See Resume</p>
+                        </a>
                     </div>
                 </div>
 
