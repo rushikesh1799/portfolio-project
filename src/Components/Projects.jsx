@@ -58,32 +58,37 @@ const Projects = () => {
                         data-filter-item
                         data-category="web development"
                     >
-                        <a href="https://snapverse.vercel.app/" target="_blank">
+                        <a
+                            href="https://fashionfusions.vercel.app/"
+                            target="_blank"
+                        >
                             <figure className="project-img">
                                 <div className="project-item-icon-box">
                                     <VisibilityIcon />
                                 </div>
 
                                 <img
-                                    src="../src/assets/snapVerse.png"
+                                    src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1699338028/developers-library_ufd2uo.png"
                                     alt="finance"
                                     loading="lazy"
                                 />
                             </figure>
 
-                            <h3 className="project-title">SnapVerse</h3>
+                            <h3 className="project-title">
+                                Developer's Library
+                            </h3>
 
                             <p className="project-category">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut harum assumenda itaque
-                                magnam maxime qui iusto eligendi sunt rerum
-                                officiis!
+                                <strong>Developer's Library</strong> is a web
+                                application to explore and watch the best video
+                                tutorials about the web development and
+                                programming. It is built using ReactJs,
+                                Redux-toolkit, ExpressJs, and MongoDB.
                             </p>
 
-                            <p className="project-category">Web development</p>
+                            {/* <p className="project-category">Web development</p> */}
                         </a>
                     </li>
-
                     <li
                         className="project-item  active"
                         data-filter-item
@@ -99,8 +104,8 @@ const Projects = () => {
                                 </div>
 
                                 <img
-                                    src="../src/assets/fashionFusion.png"
-                                    alt="finance"
+                                    src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1699336433/fashionFusion_czpv3w.png"
+                                    alt="e-commerce"
                                     loading="lazy"
                                 />
                             </figure>
@@ -108,13 +113,44 @@ const Projects = () => {
                             <h3 className="project-title">Fashion Fusion</h3>
 
                             <p className="project-category">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut harum assumenda itaque
-                                magnam maxime qui iusto eligendi sunt rerum
-                                officiis!
+                                <strong>Fashion Fusion</strong> is an e-commerce
+                                web application that stores various fashionable
+                                and trendy clothes that can be showcased and
+                                sold online. It is built using ReactJs, Context
+                                API, useReducer Hook, razorpay-API.
                             </p>
 
-                            <p className="project-category">Web development</p>
+                            {/* <p className="project-category">Web development</p> */}
+                        </a>
+                    </li>
+                    <li
+                        className="project-item  active"
+                        data-filter-item
+                        data-category="web development"
+                    >
+                        <a href="https://snapverse.vercel.app/" target="_blank">
+                            <figure className="project-img">
+                                <div className="project-item-icon-box">
+                                    <VisibilityIcon />
+                                </div>
+
+                                <img
+                                    src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1699336435/snapVerse_svlnxq.png"
+                                    alt="social-media-app"
+                                    loading="lazy"
+                                />
+                            </figure>
+
+                            <h3 className="project-title">SnapVerse</h3>
+
+                            <p className="project-category">
+                                <strong>Snap Verse</strong> is a Social Media
+                                Application where you can share posts and
+                                learnings. It is built using ReactJs, Context
+                                API, useReducer Hook, Material UI library.
+                            </p>
+
+                            {/* <p className="project-category">Web development</p> */}
                         </a>
                     </li>
                 </ul>

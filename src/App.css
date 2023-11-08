@@ -943,6 +943,60 @@ main {
 
 
 
+.skills {
+  display: flex;
+  gap: 1rem;
+}
+
+.skill-box {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tracking-wider {
+  letter-spacing: .05em;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-primary {
+  color: var(--light-gray-70);
+  border-radius: 0.375rem;
+}
+
+.text-xs {
+  font-size: .85rem;
+  line-height: 1rem;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.yellow-skills {
+  border-color: rgba(234, 179, 8, .6);
+}
+
+.blue-skills {
+  border-color: rgba(59, 130, 246, .6);
+}
+
+.green-skills {
+  border-color: rgba(34, 197, 94, .6);
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.bg-body {
+  background-color: var(--eerie-black-1);
+}
+
+
+
 
 
 /*-----------------------------------*\
@@ -1383,6 +1437,7 @@ textarea.form-input::-webkit-resizer {
     height: auto;
   }
 
+
 }
 
 
@@ -1686,6 +1741,8 @@ textarea.form-input::-webkit-resizer {
     border-radius: 12px;
     font-size: 18px;
   }
+
+
 
 
   /**
@@ -2141,10 +2198,22 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 
+
+
+
+
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 560px) {
   .social-list-hide {
     display: none;
+  }
+}
+
+@media only screen and (max-device-width: 580px) and (max-device-width: 560px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }

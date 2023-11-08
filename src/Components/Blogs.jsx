@@ -45,8 +45,11 @@ const Blogs = () => {
                                 </h3>
 
                                 <p className="blog-text">
-                                    Veritatis et quasi architecto beatae vitae
-                                    dicta sunt, explicabo.
+                                    In JavaScript, scope refers to the context
+                                    in which variables are defined and accessed.
+                                    Understanding scope is crucial for writing
+                                    clean and error-free code. Learn more in
+                                    this blog.
                                 </p>
                             </div>
                         </a>
